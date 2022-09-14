@@ -1,0 +1,21 @@
+se (tiver energia) então
+	ligar computador
+
+se (tiver live CWI Reset) então
+    enquanto (live CWI Reset)
+	desligar notificações
+	desmarcar compromissos
+	manter o foco
+	abrir MindMeister
+	fazer anotações
+
+se (colega estiver online)
+	abrir issue no GitHub
+
+se (tiver tempo livre) então
+	tocar violão
+	se (violão estiver afinado) então
+	   ticar violão
+	senão
+	   enquanto (violão não estiver afinado)
+		girar tarracha
