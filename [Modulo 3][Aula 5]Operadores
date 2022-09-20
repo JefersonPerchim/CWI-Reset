@@ -1,23 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body{
-            font-size: normal 20pt Arial;
-        }
-    </style>
-</head>
-<body>
-    <script>
-        var nomeDoFulano = "Jeferson"
-        var nomedoBeltrano = "Jeferson"
-        var mesmoNome = nomeDoFulano == nomedoBeltrano;
-        document.write(`${mesmoNome}`)
-        console.log(mesmoNome)
-    </script>
-</body>
-</html>
+//(1)
+    var nomeDoFulano = "Jeferson"
+    var nomedoBeltrano = "Jeferson"
+    var mesmoNome = nomeDoFulano == nomedoBeltrano;
+    console.log(mesmoNome)
+
+//(3) Boleto + 10%
+    var boleto = 55
+    var valorComJuros = boleto + (boleto/10)
+    console.log(valorComJuros)
+
+
+//(4) Media
+    var item1 = 5
+    var item2 = 5
+    var item3 = 5
+    var item4 = 5
+    var item5 = 5
+    var media = (item1 + item2 + item3 + item4 + item5)/5
+    console.log(media)
+
+//(5) Saldo da Conta
+    var saldo = 1000.00
+    saldo = 1000.00 - 99.90
+    saldo = saldo + 2500.00
+    saldo = saldo - 0.10
+    saldo = saldo - (saldo*(25/100))
+    saldo = saldo/2
+    console.log(saldo)
