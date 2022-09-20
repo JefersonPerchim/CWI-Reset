@@ -4,11 +4,15 @@
     var mesmoNome = nomeDoFulano == nomedoBeltrano;
     console.log(mesmoNome)
 
+//(2)maior idade
+    var idade = 17
+    var maiorIdade = idade >= 18
+    document.write(`${maiorIdade}</br>`)
+
 //(3) Boleto + 10%
     var boleto = 55
     var valorComJuros = boleto + (boleto/10)
     console.log(valorComJuros)
-
 
 //(4) Media
     var item1 = 5
