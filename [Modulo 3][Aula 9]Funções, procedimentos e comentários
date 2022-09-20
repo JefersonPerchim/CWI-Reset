@@ -1,0 +1,62 @@
+  function imprimir(argumento){
+      console.log(argumento)
+  }
+
+  function mesmoNome(nomeDoFulano, nomedoBeltrano){
+      var mesmoNome = nomeDoFulano == nomedoBeltrano;
+      return mesmoNome
+  }
+
+  function maiorDeIdade(idade){
+      var maiorIdade = idade >= 18
+      return maiorIdade
+  }
+
+  function valorComJuros(boleto){
+      var valorComJuros = boleto + (boleto*(10/100))
+      return valorComJuros
+  }
+
+  function mediaAritmetica(valores){
+    let soma=0
+      for(i=0;i < valores.length;i++){
+         soma = soma + valores[i]
+
+      }
+      var media = soma/i
+      return media
+  }
+  
+  function margemBruta(vendas, custo){
+      var lucroBruto = vendas - custo
+      var margem = lucroBruto/vendas
+      var percentual = margem*100
+      return percentual
+  }
+  
+  cwi = "CWI"
+  reset = "Reset"
+  imprimir(mesmoNome(cwi, cwi))   // true
+  imprimir(mesmoNome(cwi, reset)) // false
+  
+  imprimir("---")
+  
+  imprimir(maiorDeIdade(30)) // true
+  imprimir(maiorDeIdade(18)) // true
+  imprimir(maiorDeIdade(5))  // false
+  
+  imprimir("---")
+  
+  imprimir(valorComJuros(100))   // 110
+  imprimir(valorComJuros(984.5)) // 1082.95
+  
+  imprimir("---")
+  
+  imprimir(mediaAritmetica([1]))             // 1
+  imprimir(mediaAritmetica([1, 4, 10]))      // 5
+  imprimir(mediaAritmetica([1, 2, 3, 4, 5])) // 3
+  
+  imprimir("---")
+  
+  imprimir(margemBruta(1000000, 500000))      // 50
+  imprimir(margemBruta(528459.11, 632501.87)) // -19.68[...]
